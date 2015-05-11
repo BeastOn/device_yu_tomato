@@ -79,6 +79,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    YUDoze
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8916
