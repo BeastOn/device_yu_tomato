@@ -75,9 +75,16 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ums_adb=9015 \
     ro.usb.vid=05c6
 
+<<<<<<< HEAD
 # Doze mode
 PRODUCT_PACKAGES += \
     YUDoze
+=======
+# Gestures
+PRODUCT_PACKAGES += \
+    ConfigPanel \
+    com.cyanogenmod.keyhandler
+>>>>>>> 4d86f6b... tomato: Build keyhandler and ConfigPanel
 
 # GPS
 PRODUCT_PACKAGES += \
