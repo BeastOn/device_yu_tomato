@@ -75,16 +75,18 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ums_adb=9015 \
     ro.usb.vid=05c6
 
-<<<<<<< HEAD
 # Doze mode
 PRODUCT_PACKAGES += \
     YUDoze
-=======
+
 # Gestures
 PRODUCT_PACKAGES += \
     ConfigPanel \
     com.cyanogenmod.keyhandler
->>>>>>> 4d86f6b... tomato: Build keyhandler and ConfigPanel
+
+# Gello
+ PRODUCT_PACKAGES += \
+     Gello
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -143,3 +145,5 @@ PRODUCT_PACKAGES += \
 
 # Inherit from msm8939-common
 $(call inherit-product, device/cyanogen/msm8939-common/msm8939.mk)
+
+TARGET_UNOFFICIAL_BUILD_ID := darshan1205

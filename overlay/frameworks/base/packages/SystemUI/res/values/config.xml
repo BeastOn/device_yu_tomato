@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Pulse stroke width | For 300 DPI -->
+    <dimen name="config_pulsePathStrokeWidth">30dp</dimen>
+
+</resources>
