@@ -58,7 +58,7 @@ void init_target_properties()
     char device[PROP_VALUE_MAX];
     int rc;
 
-    rc = property_get("ro.aicp.device", device);
+    rc = property_get("ro.rr.device", device);
     if (!rc || strncmp(device, "tomato", PROP_VALUE_MAX))
         return;
 
